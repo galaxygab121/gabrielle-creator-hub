@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gabrielle | Creator Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body id="top">
+  <div class="page-wrapper">
+
+    <!-- TOP LOGO HEADER -->
+    <header class="site-header">
+      <div class="logo-left">
+        <div class="logo-badge">
+          <span class="logo-initials">GBB</span>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">Gabrielle</span>
+          <span class="logo-subtitle">Creator Hub</span>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <nav class="site-nav">
+          <a href="#social-links">Links</a>
+          <a href="#youtube">YouTube</a>
+        </nav>
+
+        <!-- DARK MODE TOGGLE -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="theme-toggle-icon">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <header class="hero">
+      <div class="hero-profile">
+        <img
+          src="images/gabrielle-portfolio.JPG"
+          alt="Profile picture of Gabrielle Boyer-Baker"
+          class="profile-picture"
+        />
+        <div class="hero-text">
+          <h1>Gabrielle Boyer-Baker</h1>
+          <p class="tagline">Tech ✕ Lifestyle ✕ College ✕ Creator</p>
+          <p class="bio">
+            Chicago-based CS major & web engineer sharing coding journeys,
+            college life, beauty, and brand collabs. 🌸✨
+          </p>
+        </div>
+      </div>
+
+      <div class="hero-buttons">
+        <a
+          href="https://www.youtube.com/@officiallygabrielle"
+          target="_blank"
+          class="btn primary"
+        >
+          🎥 Subscribe on YouTube
+        </a>
+
+        <a
+          href="https://github.com/galaxygab121"
+          target="_blank"
+          class="btn secondary"
+        >
+          💻 View My GitHub
+        </a>
+      </div>
+    </header>
+
+    <!-- SOCIAL LINK BUTTONS -->
+    <section class="section" id="social-links">
+      <h2>Find Me Online</h2>
+      <div class="social-grid">
+        <a
+          href="https://www.youtube.com/@officiallygabrielle"
+          target="_blank"
+          class="social-card youtube"
+        >
+          <span>YouTube</span>
+        </a>
+
+        <a
+          href="https://www.tiktok.com/@officiallygabrielle"
+          target="_blank"
+          class="social-card tiktok"
+        >
+          <span>TikTok</span>
+        </a>
+
+        <a
+          href="https://www.instagram.com/officiallygabrielle"
+          target="_blank"
+          class="social-card instagram"
+        >
+          <span>Instagram</span>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/gabrielle-boyer-baker/"
+          target="_blank"
+          class="social-card linkedin"
+        >
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- YOUTUBE CAROUSEL -->
+    <section class="section" id="youtube">
+      <h2>Latest YouTube Videos</h2>
+      <div class="carousel">
+        <button class="carousel-btn prev" id="prevVideo">&#10094;</button>
+        <div class="carousel-track" id="youtubeCarousel"></div>
+        <button class="carousel-btn next" id="nextVideo">&#10095;</button>
+      </div>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </section>
+
+    <footer class="footer">
+      <p>Made with 💗 in VS Code</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- FLOATING NAVBAR -->
+  <nav class="floating-nav">
+    <div class="floating-nav-inner">
+      <a href="#top" class="floating-link">Top</a>
+      <a href="#social-links" class="floating-link">Links</a>
+      <a href="#youtube" class="floating-link">YouTube</a>
+    </div>
+  </nav>
+
+</body>
+</html>
+
+
